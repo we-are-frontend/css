@@ -1,7 +1,25 @@
 {
-    "name": "waf-css",
-    "version": "0.0.1",
-    "dependencies": {
-        "sass": "^1.26.5"
-    }
+  "name": "waf-css",
+  "version": "0.0.0",
+  "description": "...to do",
+  "main": "index.js",
+  "scripts": {
+    "webpack": "webpack --mode development",
+    "start": "webpack-dev-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/we-are-frontend/css.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/we-are-frontend/css/issues"
+  },
+  "homepage": "https://github.com/we-are-frontend/css#readme",
+  "devDependencies": {
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.10.1"
+  }
 }
