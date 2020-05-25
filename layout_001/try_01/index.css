@@ -1,0 +1,13 @@
+html {
+    display: flex;
+    flex-direction: column;
+    color: blue;
+    height: 500px;
+    width: 100%;
+} 
+
+body {
+    height: 100px;
+}
+
+/*# sourceMappingURL=index.css.map*/
