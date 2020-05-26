@@ -1,8 +1,6 @@
 # waf-css
 
-```
-> yarn install
-> yarn start
-```
-
-access your example in the browser: http://localhost:8080/layout_XXX/try_XX/
+access your example in the browser: 
+1. set the folder var in webpack.config.js -> exampleFolder
+2. ```yarn install``` then ```yarn start```
+3. open http://localhost:8080
