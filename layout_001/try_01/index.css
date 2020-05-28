@@ -69,8 +69,10 @@ root-content {
 
     display: flex;
     flex: 1;
+
+    min-height: calc(100vh - 80px);
 }
 
 start-content {
-    height: 4300px;
+    height: 4000px;
 }
