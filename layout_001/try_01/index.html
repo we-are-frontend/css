@@ -2,17 +2,48 @@
 <html>
 
 <head>
-    <title>layout_001/try_01</title>
-    <link rel="stylesheet" href="dist/output.css">
+    <title>The Main Layout of your Front End App</title>
+    <link rel="stylesheet" href="./index.css">
 </head>
-
+ 
 <body>  
-    <headerbar>
-        <span>logo</span> 1344343 3f44 4 66 6
-        <button>login</button>
-    </headerbar> 
+    <app>
+        <headerbar>
+            <div class="container-start">
+                <span class="logo">logo</span>
+                <p>
+                    <button class="toggle">Toggle Scenario 1 or 2</button>
+                </p>
+            </div>
+            <div class="container-middle">
+            </div>
+            <div class="container-end">
+                <span class="btn-info">info</span>
+                <span class="btn-login">login</span>
+            </div>
+        </headerbar> 
+    
+        <root-content>
+            <content>
+                <div style="position: relative; display: flex; flex-direction: column; height: 100%; width: 100%;">
 
-    <script type="text/javascript" src="output.bundle.js"></script>
+                    <div class="content-section">content 1</div>
+                    <div class="content-section">content 2 </div>
+                    <div class="content-section">content 3 </div>
+                    <div class="content-section">content 4 </div>
+                    <div class="content-section">content 5 </div>
+    
+                    <div class="full-height-section" style="background: yellow; flex: 1;">
+                        Loading waiting for data...
+                    </div>
+
+                     <div style="height: 80px; background: green; width: 100%;">Footer</div>
+                </div> 
+            </content>
+        </root-content>
+    </app>
 </body>
+
+<script src='./output.bundle.js'></script>
 
 </html>
