@@ -5,11 +5,13 @@ html {
     flex-direction: column;
     color: blue;
     width: 100%;
-} 
+}  
 
 body {
     padding: 0;
     margin: 0;
+
+    min-width: 700px;
 }
 
 app {
@@ -32,6 +34,7 @@ headerbar {
 .container-start {
     display: flex;
     align-self: stretch;
+    align-items: center;
     padding: 0 10px;
 }
 
@@ -42,6 +45,11 @@ headerbar {
 .logo {
     align-self: center;
     padding: 10px;
+}
+
+.toggle {
+    height: 40px;
+    cursor: pointer;
 }
 
 .container-end {
@@ -73,9 +81,15 @@ root-content {
     min-height: calc(100vh - 80px);
 }
 
-start-content {
-    background: orange;
+content {
+    background: white;
     width: 100%;
     height: 100%; /* or height: 4000px if long content */
     min-height: 300px;
+}
+
+.content-section {
+    height: 500px;
+    margin: 10px;
+    border: 1px solid black;
 }
